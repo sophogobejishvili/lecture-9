@@ -1,0 +1,35 @@
+header {
+    width: 100%;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    vertical-align: middle;
+}
+
+li {
+    display: flex;
+    vertical-align: middle;
+    margin-right: 78px;
+}
+
+li a {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.GeoLab {
+    vertical-align: middle;
+    margin-left: 99px;
+}
+
+
+
