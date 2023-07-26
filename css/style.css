@@ -4,48 +4,124 @@ header {
     position: fixed;
     top: 0;
     z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
 }
 
-nav {
+.container1 {
+    width: 1300px;
+    margin: 0 auto;
     display: flex;
-    vertical-align: middle;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
 }
 
 ul {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    vertical-align: middle;
-}
-
-li {
-    display: flex;
-    vertical-align: middle;
-    margin-right: 50px;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    
+    flex-direction: row;
 }
 
 li a {
-    color: #636060;
     font-family: Helvetica;
     font-size: 17px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #636060;
+    margin-left: 50px;
 }
 
-.GeoLab {
-    display: flex;
-    vertical-align: middle;
-    margin-left: 99px;
+.background {
+    background-image: url(../images/photo\ 1.png);
+    width: 100%;
+    height: 606px;
+    background-size: cover;
+    justify-content: center;
+    margin-top: 80px;
+    position: relative;
+}
+
+.h1 {
+    font-family: Helvetica;
+    font-size: 79px;
+    font-weight: 700;
+    line-height: 91px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 238px ;
+}
+
+.h5 {
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 600px;
+}
+
+.sec-2 {
+    margin-top: 84px;
+}
+
+.textdiv {
+    width: 235px;
+    height: 213px;
 }
 
 .container {
     width: 1300px;
     margin: 0 auto;
 }
+
+.h51 {
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #636060;
+    margin-bottom: 9px;
+}
+
+.h3 {
+    font-family: Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #010101;
+    margin-bottom: 37px;
+}
+
+.h52 {
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #636060;
+   
+}
+
+
+
+
+
+
+
+
 
